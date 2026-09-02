@@ -78,3 +78,35 @@ match letter:
         print(f"{letter} is a vowel")
     case _:
         print(f"{letter} is a consonant")
+
+
+#question: Write a program to check whether a student is pass or fail based on marks using if else statement.
+marks=int(input("enter your marks "))
+if marks<=50 and marks<=27:
+    print("Relatives are very happy")
+elif marks>50 and marks<=100:
+    print("Relatives are very sad")
+else:
+    print("Relatives are not happy")
+
+
+#question: Write a program to check whether a student is pass or fail based on marks using if else statement.
+marks=int(input("enter your marks "))
+if marks>=33:
+    print("Pass")
+else:
+    print("Fail")   
+
+
+#question: Write a program to check whether a student is pass or fail based on marks using if else statement.
+marks=int(input("Enter your marks "))
+if marks>=90:
+    print("A")
+elif marks>=75:
+    print("B")
+elif marks>=65:
+    print("C")
+elif marks>=33:
+    print("Fail")
+elif marks<33:
+    print("Fail and need to repeat the same class")
